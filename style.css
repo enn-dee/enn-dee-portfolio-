@@ -197,7 +197,7 @@ li > a:hover {
   header {
     max-width: 60%;
     width:100%;
-    margin: 5px 0 0 20%;
+    margin: .6rem 0 0 25%;
     border-radius: 6px;
     background-image: linear-gradient(to right top, #1ab5b7, #00ade3, #009bff, #8775ff, #eb12c6);
     backdrop-filter: blur(1rem);
@@ -222,6 +222,7 @@ li > a:hover {
   }
   .sidebar{
     top:0;  
+    bottom:0;
     box-shadow: 2px 2px 5px black;
   }
   li > a:hover {
