@@ -7,7 +7,7 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  background: linear-gradient(to right, #31304d, #161a30);
+   background-image: linear-gradient(to left, #8b6cb4, #70619d, #585585, #45486c, #353b53, #333e53, #324152, #334351, #3b5967, #44707c, #4e878e, #5e9f9c);
 }
 header {
   position: fixed;
@@ -62,7 +62,7 @@ header {
 .logo {
   font-size: 20px;
   color: rgba(255, 255, 255, 0.9);
-  border-bottom: 3px solid rgb(133, 154, 236);
+  border-bottom: 3px solid #FF004D;
 }
 .links {
   display: flex;
@@ -112,7 +112,6 @@ li > a:hover {
   transform: scale(1.09);
   box-shadow: 3px 3px 2px white;
   border: 2px solid aqua;
-
 }
 
 .content {
@@ -176,8 +175,9 @@ li > a:hover {
   max-height: 18rem;
   height: 100%;
   border-radius: 4px;
-  box-shadow: 3px 3px 5px black;
-  transition: all 1s ease-in-out;
+  border:none;
+  box-shadow: 2px 2px 2px 2px #80BCBD;
+  transition: all .8s ease-in-out;
 }
 .card:hover{
     transform: scale(1.1);
@@ -211,20 +211,59 @@ li > a:hover {
   .links > li >a{
     font-size: 17px;
   }
+    .links {
+      gap: .5rem;
+    }
+    .content > h1{
+      font-size: 20px;
+    }
+    .content > p{
+      font-size: 12px;
+    }
   .skill-cards{
    margin: .7rem 0;
-    background-image:#845EC2;
-    backdrop-filter:blur(.5rem);
-  }
-  .card{
-    box-shadow:2px 2px 5px white;
-  }
+      gap: 2rem;
+      padding: 8px;
+    }
+  
   .sidebar{
+  left:0;
     top:0;  
     bottom:0;
+    max-width: 2rem;
     box-shadow: 2px 2px 5px black;
   }
+    .socials{
+      padding: 5px;
+    }
+    .socials > a {
+      background: rgb(40, 39, 39);
+      padding: 5px;
+      border-radius: 2px;
+    }
   li > a:hover {
     border-bottom: 1px solid #242e2e;
   }
+    .card {   
+      gap: 2rem;
+      max-width: 4rem;
+      width: 100%;
+      max-height: 12rem;
+      height: 100%;
+      border-radius: 3px;
+      box-shadow:2px 2px 5px white;
+     
+    }
+    .card > i {
+      font-size: 4rem;
+      padding: .5rem;
+    }
+    .btn {
+      border-radius: 2px;
+      font-weight: 400;
+      max-width: 5rem;
+      width: 100%;
+      padding: 4px;
+      
+    }
 }
