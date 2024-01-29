@@ -99,7 +99,7 @@ li > a:hover {
   text-align: center;
   background: transparent;
   border: 2px solid white;
-  box-shadow: 2px 2px 2px gray;
+  box-shadow: 1px 1px 2px gray;
   border-radius: 3px;
   font-weight: 500;
   max-width: 8rem;
@@ -108,9 +108,8 @@ li > a:hover {
   transition: all 1s ease-in-out;
 }
 .btn:hover {
-  transform: scale(1.09);
-  box-shadow: 3px 3px 2px white;
-  border: 2px solid aqua;
+  box-shadow: 2px 2px 2px white;
+  border: 2px solid transparent;
 }
 
 .content {
@@ -215,14 +214,14 @@ li > a:hover {
       top:0.8rem;
       display: flex;
       justify-content:center;
-      max-width: 70%;
+      /* max-width: 70%;
       width: 100%;
-      margin: 0 20%; 
+      margin: 0 20%;  */
       border-radius: 4px;
       border: none;
-      box-shadow: 2px 2px 2px 3px #FFE5E5;
-      background-image: linear-gradient(to right top, #b5d18c, #dcbc7e, #f1a88d, #ed9bac, #ce9bc9);
-      backdrop-filter: blur(1rem);
+      /* box-shadow: 1px 1px 2px 3px #FFE5E5; */
+      /* background-image: linear-gradient(to right top, #b5d18c, #dcbc7e, #f1a88d, #ed9bac, #ce9bc9);
+      backdrop-filter: blur(1rem); */
     }
 
   .logo{
@@ -230,6 +229,7 @@ li > a:hover {
   }
   .links > li >a{
     font-size: 17px;
+    border-bottom:2px solid #FC6736;
   }
     .links {
       gap: .5rem;
@@ -255,7 +255,6 @@ li > a:hover {
         border-right: 3px solid red;
       border-left: 3px solid red;
       padding: 4px;
-      
     }
     .sidebar {
       display: flex;
@@ -305,7 +304,6 @@ li > a:hover {
       max-width: 5rem;
       width: 100%;
       padding: 4px;
-      
     }
     .container {
       margin: 10rem 0 0 0;
